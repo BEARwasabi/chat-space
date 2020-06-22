@@ -1,0 +1,31 @@
+.main-chat
+  .header
+    .header__group-box
+      %p.header__group-box__group-name グループ名
+      %p.header__group-box__group-member Member : kuma
+    .header__edit-btn
+      = link_to "Edit", '#'
+  .messages
+    .message
+      .message__content
+        %p.message__content__user-name kuma
+        %p.message__content__user-date 2020/04/01(wed) 21:35:47
+      %p.message__user-comment エイプリルフール！！
+    .message
+      .message__content
+        %p.message__content__user-name kuma
+        %p.message__content__user-date 2020/04/01(wed) 21:35:47
+      %p.message__user-comment エイプリルフール！！
+    .message
+      .message__content
+        %p.message__content__user-name kuma
+        %p.message__content__user-date 2020/04/01(wed) 21:35:47
+      %p.message__user-comment エイプリルフール！！
+  .form
+    %form.post-message
+      .input-box
+        %input{type: "text", placeholder: "type a message", class: "input-box__text"}
+        %label{class: "input-box__image"}
+          = icon('fa', 'image',class: 'icon')
+          %input{type: "file", class: "input-box__image__file"}
+      %input{type: "submit", value: "Send", class: "submit-btn"}
