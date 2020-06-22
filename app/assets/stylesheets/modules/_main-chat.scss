@@ -22,7 +22,7 @@
       }
     }
     &__edit-btn {
-      border-color: $light_blue;
+      color: $light_blue;
       background-color: $white;
       height: 40px;
       width: 72px;
@@ -95,6 +95,7 @@
         height: 50px;
         width: 100px;
         margin-left: 15px;
+        border: none;
       }
     }
   }
