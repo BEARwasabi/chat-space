@@ -1,0 +1,21 @@
+.side-bar
+  .header
+    .header__box
+      %p.header__box__name kuma
+      %ul.header__box__lists
+        %li.header__box__lists__create-group
+          = link_to '#' do
+            = icon('fa', 'edit',class: 'icon')
+        %li.header__box__lists__edit-group
+          = link_to '#' do
+            = icon('fa', 'cog',class: 'icon')
+  .groups
+    .group
+      %p.group__name グループ名
+      %p.group__info まだメッセージがありません
+    .group
+      %p.group__name グループ名
+      %p.group__info まだメッセージがありません
+    .group
+      %p.group__name グループ名
+      %p.group__info まだメッセージがありません

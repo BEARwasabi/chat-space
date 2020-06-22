@@ -1,0 +1,59 @@
+.side-bar {
+  background-color: #253141;
+  color: $white;
+  width: 300px;
+  .header {
+    height: 100px;
+    line-height: 100px;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    &__box {
+      color: black;
+      height: 20px;
+      width: 260px;
+      display: flex;
+      justify-content: space-between;
+      &__name {
+        color: $white;
+        line-height: 20px;
+        font-size: 16px;
+        font-weight: bold;
+      }
+      &__lists {
+        width: 60px;
+        line-height: 20px;
+        display: flex;
+        justify-content: flex-end;
+        &__create-group {
+          margin-left: 5px;
+        }
+        &__edit-group {
+          margin-left: 5px;
+        }
+        .icon {
+          color: $white;
+        }
+      }
+    }
+  }
+
+  .groups {
+    background-color: #2f3e51;
+    height: calc(100vh - 100px);
+    .group {
+      padding: 20px 20px 40px 20px;
+      &__name {
+        color: $white;
+        font-size: 15px;
+        font-weight: bold;
+         margin-bottom: 5px;
+      }
+      &__info {
+        color: $white;
+        font-size: 11px;
+        font-weight: bold;
+      }
+    }
+  }
+}
