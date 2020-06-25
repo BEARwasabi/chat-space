@@ -17,7 +17,7 @@
         margin-bottom: 15px;
       }
       &__group-member {
-        color: #999999;
+        color: $light_gray;
         font-size: 12px;
       }
     }
@@ -51,13 +51,13 @@
           font-size: 16px;
         }
         &__user-date {
-          color: #999999;
+          color: $light_gray;
           font-size: 12px;
           margin-left: 10px;
         }
       }
       &__user-comment {
-        color: #434A54;
+        color: $black;
         font-size: 14px;
       }
     }
